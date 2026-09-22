@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: 2023 Frederick M Meyer
 # German version: 2026 Mike Doerr
 # SPDX-License-Identifier: MIT
-# Wort-Uhr-DE (for LCD ST7789, with TZinfo)
+# Word-Clock-DE (for LCD ST7789, with TZinfo)
 
 import random
 import os

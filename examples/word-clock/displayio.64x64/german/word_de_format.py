@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: 2023 Frederick M Meyer
 # German version: 2026 Mike Doerr
 # SPDX-License-Identifier: MIT
-# Library for Wort-Uhr-DE 
+# Library for Word-Clock-DE 
 
 import random
 

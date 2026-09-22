@@ -1,1 +1,0 @@
-word_de_cyd05.py
