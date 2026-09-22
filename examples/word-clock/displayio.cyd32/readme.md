@@ -1,6 +1,6 @@
 # "Word-Clocks" for Cheap Yellow Display with 3.2" LCD (ST7789)
 This code is for the [Cheap Yellow Display](https://circuitpython.org/board/sunton_esp32_2432S032C/) with a 3.2 inch LCD display.
-It is based on the _DisplayIO_ code of the "Matrix Portal S3" version.
+It is based on the _DisplayIO_ code of the "MatrixPortal S3" version.
 
 ## English words
 The [original clock](https://adafruit-playground.com/u/VPTechOps/pages/rgb-matrix-word-clocks) has been published on the _Adafruit Playground_ by Frederick M. Meyer.
