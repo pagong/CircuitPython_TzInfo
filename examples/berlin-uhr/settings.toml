@@ -1,0 +1,10 @@
+# My site WIFI
+CIRCUITPY_WIFI_SSID = "Use_your_Wifi_SSID"
+CIRCUITPY_WIFI_PASSWORD = "Use_your_Wifi_Password"
+
+# UTC_OFFSET
+UTC_OFFSET = 7200	# Europe DST
+# UTC_OFFSET = 3600	# Europe STD time
+TZ = "Europe/Berlin"
+
+POSIX_TZ="CET-1CEST,M3.5.0,M10.5.0"
