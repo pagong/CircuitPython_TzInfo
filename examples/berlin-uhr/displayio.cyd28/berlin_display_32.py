@@ -1,10 +1,8 @@
 # SPDX-FileCopyrightText: 2026 Mike Doerr
 # SPDX-License-Identifier: MIT
-# Berlin clock (Hub75: 32x32)
+# Berlin clock (DisplayIO: 32x32)
 
 import displayio
-import bitmaptools
-import vectorio
 
 from micropython import const
 
@@ -288,12 +286,13 @@ def Draw_seconds(second):
     # show a bar in the middle
     bar = GRP_BAR1[0]
     palette = PAL_BAR
-    for x in range(30):
-        bar.bitmap[x, 0] = 0  # COL_BLACK
-    barlen = 1 + second // 2
-    for x in range(barlen):
-        bar.bitmap[x, 0] = 1  # COL_BLUE
     bar.pixel_shader = palette
+    barlen = 1 + second // 2
+    for x in range(30):
+        if x < barlen:
+            bar.bitmap[x, 0] = 1  # COL_BLUE
+        else:
+            bar.bitmap[x, 0] = 0  # COL_BLACK
 
 ############### 
 

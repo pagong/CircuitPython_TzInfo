@@ -44,8 +44,8 @@ SLEEP = 0.1
 # Release any resources currently in use for the displays
 displayio.release_displays()
 
-#RGB_TYPE = "SeenGreat"
-RGB_TYPE = "Adafruit"
+RGB_TYPE = "SeenGreat"
+#RGB_TYPE = "Adafruit"
 
 def seengreat_rgb():
     # Code for ESP32-S3-DevKitC-1 on SeenGreat RGB Matrix Adapter Board
